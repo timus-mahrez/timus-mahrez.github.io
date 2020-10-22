@@ -144,22 +144,6 @@ header navbar .infobar ul li
     width: 20%;
     background: rgb(240, 240, 240);
 }
- .recentsearches .topic
-{
-    background: rgb(90, 160, 250);
-    width: 100%;
-    padding: 15px 20px;
-}
-
- .topic:hover
-{
-    background: rgb(90, 160, 250);
-}
-.body-content .searches .recentsearches li
-{
-    width: 100%;
-    padding: 15px 10px;
-}
 
 
 .searches li:hover
@@ -168,10 +152,52 @@ header navbar .infobar ul li
 }
 
 
-.body-content .tutorials 
+ .tutorials 
 {
     width: 20%;
     background: rgb(240, 240, 240);
 }
+ .recentsearches .topic
+{
+    background: rgb(90, 160, 250);
+    width: 100%;
+    padding: 15px 10px;
+}
+ .topic:hover
+{
+    background: rgb(90, 160, 250);
+}
+ .recentsearches li
+{
+    width: 100%;
+    padding: 15px 10px;
+}
+ .recentsearches li:hover
+{
+    background: #ffffff;
+}
 
+footer
+{
+    font-size: 0.8em;
+    font-weight: bolder;
+    color: #ffffff;
 
+    background: grey;
+}
+footer ul li
+{
+    padding: 20px 15px;
+}
+footer ul .right
+{
+    float: right;
+}
+footer ul .right:hover
+{
+    color: white;
+}
+/*footer ul li:hover
+{
+    color: black;
+}*/
