@@ -151,6 +151,73 @@ header navbar .infobar ul li
     background-color: #ffffff;
 }
 
+.body-content .entries
+{
+    width: 65%;
+}
+ .entriesContainer
+{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    border-radius: 10px 10px 0px 0px;
+}
+.grid
+{
+    position: relative;
+    height: 6rem;
+    background:  rgb(240, 240, 240);}
+
+ .entrynav
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5px;
+    border-bottom: 2px solid  rgb(90, 160, 250);
+}
+ 
+ .boxes
+{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+ .box
+{
+    padding: 10px 5px;
+    width: 40%;
+    border-radius: 10px 10px 0 0;
+    background: rgb(206, 202, 202);
+    text-align: center;
+    cursor :pointer;
+}
+
+ .grid h5
+{
+    margin: 10px 0;
+    text-align: center;
+}
+ .items
+{
+    border-bottom: 2px solid grey;
+}
+ .item
+{
+    display: flex;
+    padding: 15px 0;
+}
+
+ img
+
+{
+    height: 5rem;
+    width: 5rem;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
 
  .tutorials 
 {
