@@ -1,7 +1,7 @@
 .container {
-	width: 35rem;
+	width: 45rem;
 	height: 40rem;
-	margin:3% auto;
+	margin: auto;
 }
 .top{
 	text-align: right;
@@ -12,9 +12,11 @@
 input[type="submit"]{
 	padding-left: 0;
 	background-color: #35c754;
-    font-weight: bold;
+  font-weight: lighter;
 	margin-bottom: 2rem;
-	width: 100%;
+  width: 100%;
+  font-size: 25px;
 	height: 3rem;
-	cursor: pointer;
+  cursor: pointer;
+  color: white;
 }
